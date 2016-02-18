@@ -9,7 +9,6 @@ class SearchBar extends Component {
   }
 
   render() {
-    console.log(this.state);
     return <input
       value={this.state.term}
       onChange={this.onInputChange.bind(this)} />;
