@@ -11,9 +11,9 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="container">
-        <div className="row">
+        <div className="row no-gutters">
           <div className="col-md-24">
-       <input className="search-bar" value={this.state.term} onChange={this.onInputChange.bind(this)} />
+              <input className="search-bar" value={this.state.term} onChange={this.onInputChange.bind(this)} />
             </div>
           </div>
       </div>
