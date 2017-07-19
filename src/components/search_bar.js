@@ -10,13 +10,14 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <div className="container">
-        <div className="row no-gutters">
-          <div className="col-md-24">
-              <input className="search-bar" value={this.state.term} onChange={this.onInputChange.bind(this)} />
-            </div>
+        <div className="row">
+        <div className="col-md-12">
+          <div className="form-group mt-1">
+            <h1>React/Redux Youtube Video Search</h1>
+            <input className="search-bar text-left form-control" value={this.state.term} onChange={this.onInputChange.bind(this)} placeholder="Search" />
           </div>
-      </div>
+          </div>
+        </div>
     );
   }
 

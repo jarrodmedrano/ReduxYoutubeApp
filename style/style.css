@@ -1,11 +1,16 @@
+.mt-1 {
+    padding-top: 1rem;
+}
+
 .search-bar {
-    margin: 20px;
+    margin: 20px 0;
     text-align: center;
     clear: both;
 }
 
 .search-bar input {
     width: 100%;
+    text-indent: 10px;
 }
 
 .video-item img {
